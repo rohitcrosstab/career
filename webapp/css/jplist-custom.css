@@ -1,0 +1,327 @@
+.block {
+	width: 840px
+}
+
+.header {
+	font-size: 20px;
+}
+
+.title {
+	font-size: 16px;
+	color: #000;
+	margin-top: 10px;
+	margin-bottom: 10px;
+	font-weight: bold;
+}
+
+.desc {
+	font-size: 16px;
+	color: #000;
+	margin-bottom: 10px;
+	text-align: left;
+}
+
+.username {
+	font-size: 19px;
+	color: #004d99;
+	font-weight: bold;
+}
+
+.useremail {
+	font-size: 16px;
+}
+
+.userphone {
+	font-size: 16px;
+}
+
+.company {
+	font-size: 18px;
+	color: #004d99;
+}
+
+.usercompany {
+	font-size: 19px;
+	color: #004d99;
+}
+
+.userjobtitle {
+	font-size: 18px;
+	color: #004d99;
+}
+
+.location {
+	font-size: 16px;
+}
+
+.country {
+	font-size: 16px;
+}
+
+.pincode {
+	font-size: 16px;
+}
+
+.industry {
+	font-size: 16px;
+}
+
+.exp {
+	font-size: 16px;
+}
+
+.skills {
+	font-size: 16px;
+}
+
+.userlocation {
+	font-size: 18px;
+}
+
+.usercountry {
+	font-size: 18px;
+}
+
+.userpincode {
+	font-size: 18px;
+}
+
+.userindustry {
+	font-size: 18px;
+}
+
+.userexp {
+	font-size: 18px;
+}
+
+.userskills {
+	font-size: 18px;
+}
+
+.usereducation1 {
+	font-size: 18px;
+}
+
+.usereducation2 {
+	font-size: 18px;
+}
+
+.userconnections {
+	font-size: 18px;
+}
+
+.usermembersince {
+	font-size: 18px;
+}
+
+.jobstatus {
+	font-size: 18px;
+}
+
+.jobapply {
+	font-size: 18px;
+}
+
+.tags {
+	font-size: 14px;
+}
+
+.jobdescription {
+	font-size: 16px;
+	display: inline-block;
+	width: 700px;
+}
+
+.companyinfo {
+	font-size: 16px;
+	display: inline-block;
+	width: 700px;
+}
+
+.createdby {
+	font-size: 16px;
+}
+
+.jobcode {
+	color: #440e00
+}
+
+.usercode {
+	color: #440e00;
+	margin-top: 10px;
+}
+
+.date {
+	color: #440e00
+}
+
+.maindetails {
+	display: inline;
+	font-size: 16px;
+}
+
+.maindetailsbig {
+	display: inline;
+	font-size: 18px;
+}
+
+.maindetailscolored {
+	color: #004d99;
+	display: inline;
+	font-size: 16px;
+}
+
+.maindetailscoloredbig {
+	color: #004d99;
+	display: inline;
+	font-size: 19px;
+}
+
+.like, .keywords {
+	color: #440e00
+}
+
+.price {
+	color: #17161b
+}
+
+.demo-tbl {
+	background: #fff;
+	width: 100%;
+	border-collapse: collapse;
+	border-right: 1px solid #dbdbdb;
+	border-bottom: 1px solid #dbdbdb;
+	margin-top: 60px;
+}
+
+.demo-tbl td, .demo-tbl th {
+	border-left: 1px solid #dbdbdb;
+	border-top: 1px solid #dbdbdb;
+	vertical-align: top;
+	padding: 15px;
+}
+
+.demo-tbl th {
+	text-align: center;
+}
+
+@media only screen and (max-width: 767px) {
+	.demo-tbl {
+		margin-top: 0;
+	}
+	.demo-tbl td, .demo-tbl th {
+		padding: 5px
+	}
+}
+
+.demo-tbl p {
+	margin: 0;
+	padding: 0 15px 5px 0
+}
+
+.demo-tbl .odd {
+	background: transparent;
+}
+
+.demo-tbl .even {
+	background: #f9f9f9;
+}
+
+.jobBox {
+	width: 100%;
+	padding-left: 20px;
+	padding-right: 20px;
+	margin-top: 1%;
+	margin-bottom: 5%;
+	text-align: center;
+}
+
+@media only screen and (max-width: 767px) {
+	.jobBox {
+		padding-left: 5px;
+		padding-right: 5px;
+		margin-top: 0;
+		margin-bottom: 0;
+	}
+}
+
+.jplist-panel .panel-top {
+	margin-top: 30px;
+	width: 100%;
+	height: auto;
+}
+
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+	.jplist-panel {
+		padding-bottom: 20px;
+	}
+}
+
+@media screen and (max-width: 1199px) {
+	.jplist-panel {
+		padding-bottom: 20px;
+	}
+}
+
+.jplist-drop-down {
+	width: 15%;
+	border-radius: 30px;
+	font-weight: bold;
+	font-size: 14px;
+}
+
+.text-filter-box {
+	width: 15%;	
+}
+
+@media only screen and (min-width: 992px) and (max-width: 1199px) {
+	.jplist-drop-down {
+		width: 30%;
+	}
+
+	.text-filter-box {
+		width: 30%;	
+	}
+}
+
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+	.jplist-drop-down {
+		width: 33.33%;
+	}
+
+	.text-filter-box {
+		width: 33.33%;	
+	}
+}
+
+@media only screen and (min-width: 300px) and (max-width: 767px) {
+	.jplist-drop-down {
+		width: 100%;
+	}
+
+	.text-filter-box {
+		width: 100%;	
+	}
+}
+
+.jplist-panel input[type="text"] {
+	width: 155px;
+	font-size: 14px;
+	padding: 0 5px;
+	border: 1px solid #cccccc;
+	text-indent: 0;
+	border-bottom-right-radius: 15px;
+	border-top-right-radius: 15px;
+}
+
+@media only screen and (min-width: 992px) and (max-width: 1199px) {
+	.jplist-panel input[type="text"] {
+		width: 85%;
+	}
+}
+
+@media only screen and (max-width: 767px) {
+	.jplist-panel input[type="text"] {
+		width: 90%;
+	}
+}
